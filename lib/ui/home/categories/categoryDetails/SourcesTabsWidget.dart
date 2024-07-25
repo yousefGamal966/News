@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:news/model/sourcesResponse/Source.dart';
 import 'package:news/ui/home/news/NewsListWidget.dart';
 
 
 
+import '../../../../data/model/sourcesResponse/Source.dart';
 import 'TabWidget.dart';
 
 class SourcesTabWidget extends StatefulWidget {

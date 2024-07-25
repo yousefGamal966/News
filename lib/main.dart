@@ -4,11 +4,15 @@ import 'package:news/SearchProvider.dart';
 import 'package:news/ui/home/HomeScreen.dart';
 import 'package:provider/provider.dart';
 
+import 'di/di.dart';
+
 void main() {
+  configureDependencies();
   runApp( ChangeNotifierProvider(
       create: (context) => SearchProvider(),
       child: MyApp()));
 }
+
 
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
